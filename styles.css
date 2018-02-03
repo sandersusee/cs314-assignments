@@ -1,0 +1,92 @@
+p {
+	font-family: 'slabo_27pxregular', Arial, sans-serif;
+}
+
+a {
+    display: inline;
+    color: blue;
+    padding-right: 2%;
+    text-decoration: underline;
+	float: right;
+}
+
+hr { 
+	color: black;
+    border-style: solid;
+    border-width: 1.5px;
+} 
+
+img {
+	padding: 20px 200px 20px 200px;
+	vertical-align:middle
+}
+
+.header {
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+	height: 120px;
+	text-transform: uppercase;
+}
+
+.header2 {
+	display: block;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+	background-color: orange;
+	text-transform: uppercase;
+}
+
+.content {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+	background-color: orange;
+	padding: 10px 30px 20px 30px;
+}
+
+.content2 {
+	display: block;
+	background-color: blue;
+	height: 150px;
+	padding-top: 110px;
+}
+
+.button {
+	position: absolute;
+	color: white;
+	height: 25px;
+	width: 70px;
+	top: 850px;
+	right: 750px;
+	padding-top: 10px;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	z-index: 10;
+}
+
+.footer {
+	display: block;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	height: 30px;
+	padding-top: 15px;
+}
+
+@font-face {
+    font-family: 'slabo_27pxregular';
+    src: url('Fonts\slabo27px-regular-webfont.eot');
+    src: url('Fonts\slabo27px-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts\slabo27px-regular-webfont.woff2') format('woff2'),
+         url('Fonts\slabo27px-regular-webfont.woff') format('woff'),
+         url('Fonts\slabo27px-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
