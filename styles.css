@@ -17,8 +17,13 @@ hr {
 } 
 
 img {
-	padding: 20px 200px 20px 200px;
-	vertical-align:middle
+    vertical-align: middle;
+	padding: 20px 50px 20px 50px;
+}
+
+div {
+ display: table; 
+ margin: 0 auto;
 }
 
 .header {
@@ -47,8 +52,8 @@ img {
 	padding: 10px 30px 20px 30px;
 }
 
-.content2 {
-	display: block;
+.darkbackground {
+	display: relative;
 	background-color: blue;
 	height: 150px;
 	padding-top: 110px;
@@ -57,10 +62,10 @@ img {
 .button {
 	position: absolute;
 	color: white;
+	margin-left: 50%;
+	margin-top: 18vh;
 	height: 25px;
 	width: 70px;
-	top: 850px;
-	right: 750px;
 	padding-top: 10px;
 	text-align: center;
 	border-style: solid;
@@ -68,6 +73,7 @@ img {
 	border-width: 1px;
 	border-radius: 5px;
 	z-index: 10;
+	transform: translate(-50%, -50%);
 }
 
 .footer {
@@ -77,6 +83,7 @@ img {
 	text-transform: uppercase;
 	height: 30px;
 	padding-top: 15px;
+	padding-left: 10px;
 }
 
 @font-face {
