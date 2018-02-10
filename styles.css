@@ -1,0 +1,191 @@
+html {
+	font-family: 'slabo_27pxregular', Arial, sans-serif;
+	font-size: 12px;
+	cursor: default;
+	padding: 10px;
+}
+
+#fullPagePicture {
+	background: url(jumper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    display: inline;
+    color: blue;
+    padding-right: 2%;
+    text-decoration: underline;
+	float: right;
+}
+
+hr { 
+	color: black;
+    border-style: solid;
+    border-width: 1.5px;
+} 
+
+img {
+    vertical-align: middle;
+	padding: 20px 50px 20px 50px;
+}
+
+div {
+ display: table; 
+ margin: 0 auto;
+}
+
+.container1 {
+	display: block;
+	font-size: 40px;
+    text-align: left;
+	padding: 20px;
+	background: yellow;
+	height: 200px;
+	width: 200px;
+	margin: 5% 12%;
+	border-style: solid;
+	border-color: green;
+	border-width: 3px;
+	opacity: 1;
+	transition: opacity 1s ease;
+	border-radius: 10px;
+	animation: titlemove 5s infinite;
+}
+
+.container2 {
+	display: block;
+	font-size: 40px;
+    text-align: left;
+	padding: 20px;
+	background: yellow;
+	height: 100px;
+	width: 200px;
+	margin: 0 75%;
+	border-style: solid;
+	border-color: green;
+	border-width: 3px;
+	opacity: 0;
+	transition: opacity 3s ease;
+	border-radius: 10px;
+}
+
+.container1:hover{
+	opacity: .25;
+}
+
+.container2:hover{
+	opacity: 1;
+}
+
+.header {
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+	height: 120px;
+	text-transform: uppercase;
+}
+
+.header2 {
+	display: block;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+	background-color: red;
+	text-transform: uppercase;
+}
+
+.header3 {
+	display: block;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+	text-transform: uppercase;
+}
+
+.content {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+	background: linear-gradient(red, yellow);
+	padding: 10px 30px 20px 30px;
+}
+
+.content2 {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+	background: linear-gradient(yellow, red);
+	padding: 10px 30px 20px 30px;
+}
+
+.darkbackground {
+	display: relative;
+background: linear-gradient(yellow, red);
+	height: 150px;
+	padding-top: 110px;
+}
+
+.button {
+	position: absolute;
+	color: black;
+	margin-left: 50%;
+	margin-top: 18vh;
+	height: 25px;
+	width: 70px;
+	padding-top: 10px;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	z-index: 10;
+	transform: translate(-50%, -50%);
+}
+
+.footer {
+	display: block;
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	height: 30px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+	opacity: 0.5;
+}
+
+.button:active {
+	color: white;
+	border-color: white;
+}
+
+@font-face {
+    font-family: 'slabo_27pxregular';
+    src: url('Fonts\slabo27px-regular-webfont.eot');
+    src: url('Fonts\slabo27px-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts\slabo27px-regular-webfont.woff2') format('woff2'),
+         url('Fonts\slabo27px-regular-webfont.woff') format('woff'),
+         url('Fonts\slabo27px-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes titlemove {
+    0%   {background: yellow; border-color: green; color: black;}
+	66% {background: green; border-color: yellow; color: white;}
+	100%   {background: yellow; border-color: green; color: black;}
+}
