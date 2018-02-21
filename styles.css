@@ -1,0 +1,143 @@
+html {
+	font-family: 'slabo_27pxregular', Arial, sans-serif;
+	font-size: 12px;
+	cursor: default;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+i {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding-right: 10%;
+	float: right;
+}
+
+p {
+	display: block;
+	margin: 10px auto;
+	width: 60%;
+}
+
+.maincontainer {
+	position: relative;
+	background-color: grey;
+	height: 350px;
+}
+
+.mainheader {
+	position: absolute;
+	margin: 30px 50vw;
+	transform: translate(-50%);
+	font-size: 36px;
+}
+
+.maincontent {
+	position: absolute;
+    text-align: center;
+	margin: 100px 50vw;
+	transform: translate(-50%);
+	width: 80%;
+    font-size: 16px;
+}
+
+.button {
+	position: absolute;
+	color: black;
+	width: 80px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+    text-align: center;
+	padding: 10px 30px;
+	margin: 220px 50vw;
+	transform: translate(-50%);
+}
+
+.flexcontainer {
+	padding: 40px 40px 0px 40px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.buttonbottom {
+  	position: block;
+	width: 60px;
+	color: black;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 8px;
+	margin: 10px auto;
+}
+	
+.flexcontainer .fas {
+	display: block;
+	width: 100%;
+	padding: 20px 0px 20px 10px;
+	color: black;
+    text-align: center;
+}
+
+.button:hover {
+	opacity: 0.5;
+}
+
+.buttonbottom:hover {
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.flexcontainer {
+		flex-direction: column;
+	}
+	
+	.button {
+		margin: 240px 50vw;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.flexcontainer {
+		flex-direction: column;
+	}
+	
+	.button {
+		margin: 300px 50vw;
+	}
+}
+
+@font-face {
+    font-family: 'slabo_27pxregular';
+    src: url('Fonts\slabo27px-regular-webfont.eot');
+    src: url('Fonts\slabo27px-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts\slabo27px-regular-webfont.woff2') format('woff2'),
+         url('Fonts\slabo27px-regular-webfont.woff') format('woff'),
+         url('Fonts\slabo27px-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
