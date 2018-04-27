@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'ralewayregular';
+  src: url('fonts/raleway-regular-webfont.eot');
+  src: url('fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {
+  font-family: 'ralewayregular', Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.userInfoTable td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.userInfoTable tr {
+	border: solid;
+	border-color: white;
+	border-width: 30px;
+	border-radius: 10px;
+}
+
+.dataTable td {
+	text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.header h1 {
+	font-size: 60px;
+	color: white;
+	padding-top: 60px;
+	background-color: blue;
+	text-align: center;
+}
+
+.header h2 {
+	font-size: 35px;
+	padding: 20px 10px 40px 10px;
+	color: white;
+	background-color: blue;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.userInfoTable {
+	border: black;
+	color: white;
+	background-color: grey;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	width: 97.5%;
+}
+
+.dataTable {
+	width: 90%;
+}
+
+.todoButton, .albumButton {
+	margin-bottom: 10px;
+}
