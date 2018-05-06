@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">  
+	<link rel="icon" href="resources/favicon-music.ico" type="image/x-icon" />	
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+	<script src="forum.js"></script>
+    <title>The Jonas Brothers</title>
+  </head>
+  <body>
+	<div class="topnav">
+		<ul>
+			<a href="index.html"><img src="resources/logo.PNG" alt="logo" width="200" height="130"></a>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="map.html">Concert Map</a></li>
+			<li><a href="about.html">Songs</a></li>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+	</div>
+	<h1> Get in Touch With the Band </h1>
+	<form>
+		<p>Full Name</p> 
+		<input type="text" name="FullName" placeholder="What's your name?" id="name">
+	</form>
+	<form>
+		<p>Email</p>
+		<input type="email" name="Email" placeholder="What's your email?" id="email">
+	</form>
+	<form>
+		<p>Subject</p> 
+		<input type="text" name="Subject" placeholder="What's the message about?" id="subject">
+	</form>
+	<form>
+		<p>Message</p>
+		<textarea name="message" rows="6" placeholder="What would you like to tell me?" id="about"></textarea>
+	</form>
+	<form>
+		<input type="button" onclick="showInput();" value="Submit">
+	</form>
+	<h2 id="submitheader"></h2>
+	<h3><span id = "display1"></span></h3>
+	<h3><span id = "display2"></span></h3>
+	<h3><span id = "display3"></span></h3>
+	<h3><span id = "display4"></span></h3>
+	<div class="footer">
+		Site by Sander Susee
+	</div>
+  </body>
+</html>
